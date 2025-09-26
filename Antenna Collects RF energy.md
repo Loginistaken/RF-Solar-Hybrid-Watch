@@ -1,4 +1,4 @@
-# MEMS RF Hybrid Watch: Updated System Canvas
+#  MEMES RF Hybrid Watch By Wiz- Dimensional: Updated System Canvas
 
 ## 1. Primary Oscillator: MEMS Super-TCXO
 
