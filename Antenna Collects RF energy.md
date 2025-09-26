@@ -94,7 +94,7 @@
 - E-ink displays: [E Ink Technology](https://www.eink.com/)
 Quick conclusion (TL;DR)
 
-Your MEMS RF-hybrid architecture is sound. The big limiting factor is raw harvested power: with a wrist-sized antenna you should expect fractions of a microwatt to ≈1 µW in typical urban conditions — enough to keep a very low-power timebase alive only if that timebase truly runs in the single-µW range and you aggressively duty-cycle everything else. To enable occasional higher-power ops (sync, display refresh, short radio bursts) you’ll need a buffer (supercap / thin-film cell) and/or a second ambient harvester (tiny solar or kinetic) to make the system practical.
+The MEMS RF-hybrid architecture is sound. The big limiting factor is raw harvested power: with a wrist-sized antenna you should expect fractions of a microwatt to ≈1 µW in typical urban conditions — enough to keep a very low-power timebase alive only if that timebase truly runs in the single-µW range and you aggressively duty-cycle everything else. To enable occasional higher-power ops (sync, display refresh, short radio bursts) further needed a buffer (supercap / thin-film cell) and/or a second ambient harvester (tiny solar or kinetic) to make the system practical.
 
 Energy reality — worked numbers
 
@@ -146,7 +146,7 @@ Use a dedicated energy-harvester PMIC that can operate with tens of millivolts a
 
 Energy buffer sizing: example
 
-If you want to support a 50 mW radio burst that lasts 1 second, required energy = 0.05 J (since 50 mW × 1 s = 0.05 J).
+To support a 50 mW radio burst that lasts 1 second, required energy = 0.05 J (since 50 mW × 1 s = 0.05 J).
 
 Energy in capacitor: 
 E=0.5×C×(V12−V22)
@@ -188,7 +188,9 @@ Optionally add piezo/kinetic harvesting in the strap for motion energy.
 
 Optional high-precision sync strategy
 
-If you want CSAC accuracy: only power CSAC episodically after buffer charges. CSAC warm-up and run consumes tens–hundreds of mW and is feasible only for very short, infrequent syncs.
+ To improve CSAC accuracy: only power CSAC episodically after buffer charges. 
+ 
+ CSAC warm-up and run consumes tens–hundreds of mW and is feasible only for very short, infrequent syncs.
 
 More practical: GNSS or BLE time sync for occasional re-calibration (cheaper and lower warm-up than CSAC).
 
