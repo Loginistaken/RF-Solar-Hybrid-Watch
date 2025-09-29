@@ -40,8 +40,7 @@ The MEMES RF Solar Hybrid has two tiny "power factories" inside:
 4. bounce through the air. The MEMES watch has a mini antenna and circuit that "catches" some of these waves and turns
 5. them into extra power. Think of it as gathering free energy from the air!
 
-When you're wearing the watch, it's always working to collect energy from light and radio waves. 
-If you go camping, travel, or just forget to take your watch off when you sleep, it keeps running—no plug needed.
+.
 
 ---
 
