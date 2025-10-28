@@ -401,3 +401,5 @@ Hook PV to BQ25570 eval kit, try cold-start and measure VSTOR ramp.
 
 Build quick rectenna (one diode + capacitor) and test harvested DC near a phone and Wi-Fi AP.
 Collect these four numbers and re-run the model to distinguish whether you’re green, marginal, or need design changes and what exact changes.
+
+Intellectual Property Notice: Invented and conceptually developed by Eric C. Lindau. Assisted through AI-aided co-engineering environments (ChatGPT, GitHub Copilot)as well as bring special thanks OpenAI gpt chat for bring us the images. All combinatorial elements, structural mappings, material configurations, and thermoelectric AI feedback systems are attributed to the inventor and may be subject to protection under applicable copyright, intellectual property, and patent frameworks.
